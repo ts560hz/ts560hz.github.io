@@ -1,0 +1,30 @@
+/* Style for the results container */
+#results {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the buttons container */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for the buttons */
+  .buttons button, .play-again {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect for the buttons */
+  .buttons button:hover, .play-again:hover {
+    background-color: #2980b9;
+  }
