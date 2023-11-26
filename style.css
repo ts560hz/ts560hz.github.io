@@ -1,8 +1,27 @@
-/* Style for the results container */
-#results {
+/* Style for the page title */
+#page-title {
     text-align: center;
     margin-top: 20px;
     font-family: Arial, sans-serif;
+  }
+  
+  #page-title h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #333; /* Change color as needed */
+  }
+  
+  /* Rest of your existing styles for results, buttons, and play-again button */
+  /* ... */
+  
+  /* Style for the results container */
+  #results {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray background color */
+    border-radius: 10px;
   }
   
   /* Style for the buttons container */
@@ -10,6 +29,9 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    background-color: #ddd; /* Lighter gray background color */
+    padding: 15px;
+    border-radius: 10px;
   }
   
   /* Style for the buttons */
